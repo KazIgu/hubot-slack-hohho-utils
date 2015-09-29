@@ -7,7 +7,7 @@ ensureImageExtension = (url) ->
 
 
 Robot = (robot) ->
-  Util = {}
+  Util = robot.util || {}
   Users = robot.brain.data.users
   delete Users.USLACKBOT
 
