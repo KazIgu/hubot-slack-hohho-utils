@@ -34,6 +34,8 @@ Robot = (robot) ->
           image = msg.random images
           cb ensureImageExtension image.unescapedUrl
 
+  Util.isBot = (user) -> !!!user.email_address
+
   Util.sacrifice = ->
     sacrifices = []
     for key of Users
