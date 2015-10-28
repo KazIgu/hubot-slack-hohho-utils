@@ -10,6 +10,7 @@ This script add some scripts and util
 ## Commands
 
 - `slack say <hogehoge>` - Bot speaks to Random Group
+- `slack repeat <hogehoge>` - Bot repeats to the Group
 
 ## Utils
 
